@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LHS_API.props" />
+</Project>

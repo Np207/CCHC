@@ -1,0 +1,2 @@
+F:\Project\DotNET\TracNghiemCM\LHS_Client\obj\Debug\net8.0\staticwebassets.build.json
+F:\Project\DotNET\TracNghiemCM\LHS_Client\obj\Debug\net8.0\staticwebassets.build.json
