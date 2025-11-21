@@ -1,0 +1,91 @@
+﻿@model LHS_Models.Models.QuestionBank
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Bank</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!--This is for creating questions-->
+            <table class="table" id="questionsTable">
+                <thead>
+                    <tr>
+                        <th>Question Content</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="questionsBody">
+                    <!-- Existing questions (if any) -->
+                    @for (int i = 0; i < Model.Questions.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                <input asp-for="Questions[i].Content" class="form-control" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-success" id="addQuestionBtn">+ Add Question</button>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    let questionIndex = @Model.Questions.Count;
+
+    document.getElementById("addQuestionBtn").addEventListener("click", function () {
+
+        let tbody = document.getElementById("questionsBody");
+
+        let newRow = document.createElement("tr");
+
+        newRow.innerHTML = `
+            <td>
+                <input name="Questions[${questionIndex}].Content"
+                       class="form-control" />
+            </td>
+        `;
+
+        tbody.appendChild(newRow);
+
+        questionIndex++;
+    });
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

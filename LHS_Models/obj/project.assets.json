@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\LHS_Models.csproj",
+      "projectUniqueName": "F:\\Project\\DotNET\\CCHC\\LHS_Models\\LHS_Models.csproj",
       "projectName": "LHS_Models",
-      "projectPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\LHS_Models.csproj",
+      "projectPath": "F:\\Project\\DotNET\\CCHC\\LHS_Models\\LHS_Models.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\obj\\",
+      "outputPath": "F:\\Project\\DotNET\\CCHC\\LHS_Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

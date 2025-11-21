@@ -1,23 +1,26 @@
 ﻿using System.Net;
 using System.Net.Http.Headers;
 using System.Text.Json;
+using LHS_Client.Attributes;
 using LHS_Models.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LHS_Client.Controllers
 {
+    [Route("Profile")]
     public class ProfileController : BaseController
     {
         public ProfileController(IHttpClientFactory httpClientFactory)
             : base(httpClientFactory, "api/profile") { }
 
         [HttpGet]
+        [Authorized(PermissionCode = "view-profile-list")]
         public async Task<IActionResult> Index()
         {
             Authenticate();
 
             //var response = await _httpClient.GetAsync($"{_url}/getAll");
-            var aaa = GetSessionAccount().RoleId;
             var response = await _httpClient.GetAsync($"{_url}/getFilterByRole?roleId={GetSessionAccount().RoleId}");
 
             if (response.IsSuccessStatusCode)

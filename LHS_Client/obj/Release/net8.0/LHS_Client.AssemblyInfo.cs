@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LHS_Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2a157c5eee9a102a76254ff270af555c776361e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+519a473da9c1c865b4b1ffcd80236c4c8ad0a26d")]
 [assembly: System.Reflection.AssemblyProductAttribute("LHS_Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LHS_Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

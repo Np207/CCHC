@@ -55,11 +55,15 @@ builder.Services.Configure<JwtSettings>(
 builder.Services.AddSingleton<JwtHelper>();
 builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<ProfileService>();
-
+builder.Services.AddScoped<QuestionBankService>();
+builder.Services.AddScoped<QuestionService>();
+/*Repo*/
 builder.Services.AddScoped<ProfileRepository>();
 builder.Services.AddScoped<AuthorizedRepository>();
 builder.Services.AddScoped<AccountRepository>();
 builder.Services.AddScoped<RoleRepository>();
+builder.Services.AddScoped<QuestionBankRepository>();
+builder.Services.AddScoped<QuestionRepository>();
 
 
 var app = builder.Build();
