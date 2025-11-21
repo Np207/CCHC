@@ -39,13 +39,11 @@ namespace LHS_Client.Controllers
 
                     if (getPermissionCodes.IsSuccessStatusCode)
                     {
-                        // Read the response as a string
-                        var jsonString = await getPermissionCodes.Content.ReadAsStringAsync();
-                        // Store JSON string in session
-                        HttpContext.Session.SetString("PermissionCodes", jsonString);
-                        var aa = HttpContext.Session.GetString("PermissionCodes");
+                        var json = await getPermissionCodes.Content.ReadAsStringAsync();
+                        var codes = JsonSerializer.Deserialize<List<string>>(json);
 
-                        var jsonString2 = await getPermissionCodes.Content.ReadAsStringAsync();
+                        HttpContext.Session.SetObject("PermissionCodes", codes);
+                        var aa = HttpContext.Session.GetObject<List<string>>("PermissionCodes");
                     }
                   
                     return RedirectToAction("Index", "Profile");

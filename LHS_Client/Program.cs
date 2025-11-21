@@ -16,6 +16,7 @@ builder.Services.AddHttpClient("api", client =>
 // Controllers (optional)
 builder.Services.AddScoped<ProfileController>();
 builder.Services.AddScoped<AccountController>();
+builder.Services.AddScoped<QuestionBankController>();
 
 // -----------------------------
 // REQUIRED: enable Session

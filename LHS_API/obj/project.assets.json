@@ -8209,11 +8209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_API\\LHS_API.csproj",
+      "projectUniqueName": "F:\\Project\\DotNET\\CCHC\\LHS_API\\LHS_API.csproj",
       "projectName": "LHS_API",
-      "projectPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_API\\LHS_API.csproj",
+      "projectPath": "F:\\Project\\DotNET\\CCHC\\LHS_API\\LHS_API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_API\\obj\\",
+      "outputPath": "F:\\Project\\DotNET\\CCHC\\LHS_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8234,11 +8234,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Client\\LHS_Client.csproj": {
-              "projectPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Client\\LHS_Client.csproj"
+            "F:\\Project\\DotNET\\CCHC\\LHS_Client\\LHS_Client.csproj": {
+              "projectPath": "F:\\Project\\DotNET\\CCHC\\LHS_Client\\LHS_Client.csproj"
             },
-            "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\LHS_Models.csproj": {
-              "projectPath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\LHS_Models.csproj"
+            "F:\\Project\\DotNET\\CCHC\\LHS_Models\\LHS_Models.csproj": {
+              "projectPath": "F:\\Project\\DotNET\\CCHC\\LHS_Models\\LHS_Models.csproj"
             }
           }
         }

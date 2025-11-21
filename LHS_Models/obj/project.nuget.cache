@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rpnra8N7txI=",
+  "dgSpecHash": "WzQCnYlRno4=",
   "success": true,
-  "projectFilePath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Models\\LHS_Models.csproj",
+  "projectFilePath": "F:\\Project\\DotNET\\CCHC\\LHS_Models\\LHS_Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",

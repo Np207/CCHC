@@ -222,6 +222,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.Question, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddOne",
+    "RelativePath": "api/Question/AddOne",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "LHS_Models.Models.Question",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.Question, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "EditOne",
+    "RelativePath": "api/Question/EditOne",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "LHS_Models.Models.Question",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.Question, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Question/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.Question, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetOne",
+    "RelativePath": "api/Question/GetOne/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.Question, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "RemoveOne",
+    "RelativePath": "api/Question/RemoveOne/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LHS_API.Controllers.BaseController\u00602[[LHS_Models.Models.QuestionBank, LHS_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LHS_API.Services.QuestionBankService, LHS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "AddOne",
     "RelativePath": "api/QuestionBank/AddOne",
@@ -301,9 +380,60 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LHS_Client.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_Client.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_Client.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_Client.Controllers.ProfileController",
+    "Method": "Index",
+    "RelativePath": "Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LHS_Client.Controllers.ProfileController",
     "Method": "Create",
-    "RelativePath": "Create",
+    "RelativePath": "Profile/Create",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -313,7 +443,7 @@
   {
     "ContainingType": "LHS_Client.Controllers.ProfileController",
     "Method": "CreateOne",
-    "RelativePath": "Create",
+    "RelativePath": "Profile/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -364,7 +494,7 @@
   {
     "ContainingType": "LHS_Client.Controllers.ProfileController",
     "Method": "Delete",
-    "RelativePath": "Delete",
+    "RelativePath": "Profile/Delete",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -380,7 +510,7 @@
   {
     "ContainingType": "LHS_Client.Controllers.ProfileController",
     "Method": "DeleteOne",
-    "RelativePath": "Delete",
+    "RelativePath": "Profile/Delete",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -396,7 +526,7 @@
   {
     "ContainingType": "LHS_Client.Controllers.ProfileController",
     "Method": "Detail",
-    "RelativePath": "Detail",
+    "RelativePath": "Profile/Detail",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -410,30 +540,15 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LHS_Client.Controllers.AccountController",
-    "Method": "Login",
-    "RelativePath": "Login",
+    "ContainingType": "LHS_Client.Controllers.ProfileController",
+    "Method": "Update",
+    "RelativePath": "Profile/Update",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LHS_Client.Controllers.AccountController",
-    "Method": "Login",
-    "RelativePath": "Login",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Username",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
+        "Name": "id",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -441,10 +556,71 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LHS_Client.Controllers.AccountController",
-    "Method": "Logout",
-    "RelativePath": "Logout",
+    "ContainingType": "LHS_Client.Controllers.ProfileController",
+    "Method": "UpdateOne",
+    "RelativePath": "Profile/Update",
     "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Department.Id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Department.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_Client.Controllers.QuestionBankController",
+    "Method": "Create",
+    "RelativePath": "QuestionBank/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LHS_Client.Controllers.QuestionBankController",
+    "Method": "Index",
+    "RelativePath": "QuestionBank/Get",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
@@ -495,73 +671,6 @@
       },
       {
         "Name": "PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LHS_Client.Controllers.ProfileController",
-    "Method": "Update",
-    "RelativePath": "Update",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LHS_Client.Controllers.ProfileController",
-    "Method": "UpdateOne",
-    "RelativePath": "Update",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DateOfBirth",
-        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "IdNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DepId",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "Department.Id",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "Department.Name",
         "Type": "System.String",
         "IsRequired": false
       }

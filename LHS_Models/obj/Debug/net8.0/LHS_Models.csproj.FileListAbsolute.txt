@@ -35,3 +35,16 @@ F:\Project\DotNET\TracNghiemCM\LHS_Models\obj\Debug\net8.0\refint\LHS_Models.dll
 F:\Project\DotNET\TracNghiemCM\LHS_Models\obj\Debug\net8.0\LHS_Models.pdb
 F:\Project\DotNET\TracNghiemCM\LHS_Models\obj\Debug\net8.0\ref\LHS_Models.dll
 F:\Project\DotNET\TracNghiemCM\LHS_Models\obj\Debug\net8.0\LHS_Models.csproj.AssemblyReference.cache
+F:\Project\DotNET\CCHC\LHS_Models\bin\Debug\net8.0\LHS_Models.deps.json
+F:\Project\DotNET\CCHC\LHS_Models\bin\Debug\net8.0\LHS_Models.dll
+F:\Project\DotNET\CCHC\LHS_Models\bin\Debug\net8.0\LHS_Models.pdb
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.csproj.AssemblyReference.cache
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.AssemblyInfoInputs.cache
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.AssemblyInfo.cs
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.csproj.CoreCompileInputs.cache
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.sourcelink.json
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.dll
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\refint\LHS_Models.dll
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\LHS_Models.pdb
+F:\Project\DotNET\CCHC\LHS_Models\obj\Debug\net8.0\ref\LHS_Models.dll

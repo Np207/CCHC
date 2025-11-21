@@ -13,7 +13,6 @@ namespace LHS_API.Controllers
         public ProfileController(ProfileService service, JwtHelper jwtHelper) : base(service, jwtHelper) { }
 
         [HttpGet("GetFilterByRole")]
-        [Authorized(PermissionCode = "view-profile-list")]
         public async Task<IActionResult> GetFilterByRole(string roleId)
         {
             return Ok(await _service.CallService_GetProfilesByRoleId(roleId));

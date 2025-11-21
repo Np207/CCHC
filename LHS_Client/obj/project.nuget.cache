@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kdZXoDBCRKs=",
+  "dgSpecHash": "GD4gAPeBdn4=",
   "success": true,
-  "projectFilePath": "F:\\Project\\DotNET\\TracNghiemCM\\LHS_Client\\LHS_Client.csproj",
+  "projectFilePath": "F:\\Project\\DotNET\\CCHC\\LHS_Client\\LHS_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace LHS_Client.Attributes
 {
@@ -7,8 +8,12 @@ namespace LHS_Client.Attributes
         public string PermissionCode { get; set; } = "";
         public void OnAuthorization(AuthorizationFilterContext context)
         {
-            var a = context.HttpContext.Session.GetString("PermissionCodes");
-            throw new NotImplementedException();
+            List<string>? permissionCodes = context.HttpContext.Session.GetObject<List<string>>("PermissionCodes");
+
+            if (permissionCodes.Count == 0 || !permissionCodes.Contains(PermissionCode))
+            {
+                context.Result = new UnauthorizedResult();
+            }
         }
     }
 }
